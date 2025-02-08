@@ -1,0 +1,50 @@
+﻿.registration-form {
+    font-size: 12px;
+    width: fit-content;
+    padding: 20px;
+    background: #dadada;
+    border-radius: 15px;
+}
+
+h2 {
+    grid-column: span 2;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-gap: 15px;
+    transition: all 0.5s 0s ease;
+}
+
+input:not([type='checkbox'], [type='radio'], .noLF) {
+    width: 100%;
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.hobby-selection {
+    display: flex;
+}
+
+.hobby-selection label {
+    padding-top: 2px;
+    margin-right: 10px;
+}
+
+button {
+    grid-column: span 2;
+    justify-self: end;
+}
+
+.break {
+    grid-column: 1 / 3;
+}
+
+.hide {
+    height: 0;
+    display: none;
+}
